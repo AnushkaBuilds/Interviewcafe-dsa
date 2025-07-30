@@ -53,3 +53,68 @@ Each DSA problem is paired with:
 This mirrors real-world tech interviews, preparing users through **active learning** and **repetition**.
 
 ---
+
+## 🗂️ Folder Structure
+
+src/
+├── components/
+│ ├── CodeEditor.tsx
+│ ├── ProblemDetail.tsx
+│ ├── ProblemsPage.tsx
+│ ├── Visualizer.tsx
+│ ├── HomePage.tsx
+│ ├── BlogPage.tsx
+│ ├── PricingPage.tsx
+│ ├── Sidebar.tsx
+│ └── Navigation.tsx
+├── contexts/
+│ └── ThemeContext.tsx
+├── data/
+│ └── problems.ts
+├── App.tsx
+├── main.tsx
+└── index.css
+
+
+---
+
+## 📦 How to Run This Project
+
+### ✅ Prerequisites:
+
+- Node.js ≥ 16
+- npm ≥ 8
+
+---
+
+### 🔧 Installation & Local Setup:
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/AnushkaBuilds/Interviewcafe.git
+cd Interviewcafe
+Install dependencies
+
+bash
+Copy
+Edit
+npm install
+Start the development server
+
+bash
+Copy
+Edit
+npm run dev
+Open in browser
+Go to: http://localhost:5173
+
+🚀 Building for Production:
+bash
+Copy
+Edit
+npm run build
+🔍 Preview production build locally:
+bash
+Copy
+Edit
+npm run preview
