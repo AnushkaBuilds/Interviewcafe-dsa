@@ -54,29 +54,7 @@ This mirrors real-world tech interviews, preparing users through **active learni
 
 ---
 
-## 🗂️ Folder Structure
-
-src/
-├── components/
-│ ├── CodeEditor.tsx
-│ ├── ProblemDetail.tsx
-│ ├── ProblemsPage.tsx
-│ ├── Visualizer.tsx
-│ ├── HomePage.tsx
-│ ├── BlogPage.tsx
-│ ├── PricingPage.tsx
-│ ├── Sidebar.tsx
-│ └── Navigation.tsx
-├── contexts/
-│ └── ThemeContext.tsx
-├── data/
-│ └── problems.ts
-├── App.tsx
-├── main.tsx
-└── index.css
-
-
----
+### 🔧 Installation & Local Setup:
 
 ## 📦 How to Run This Project
 
@@ -93,26 +71,33 @@ src/
 ```bash
 git clone https://github.com/AnushkaBuilds/Interviewcafe.git
 cd Interviewcafe
-Install dependencies
+```
 
-bash
-Copy
-Edit
+2. **Install dependencies**
+```bash
 npm install
-Start the development server
+```
 
-bash
-Copy
-Edit
+3. **Start the development server**
+```bash
 npm run dev
-Open in browser
-Go to: http://localhost:5173
+```
 
-🚀 Building for Production:
-bash
-Copy
-Edit
+4. **Open in browser**
+
+Go to: [http://localhost:5173](http://localhost:5173)
+
+---
+
+### 🚀 Building for Production:
+```bash
 npm run build
+```
+
+### 🔍 Preview production build locally:
+```bash
+npm run preview
+```
 🔍 Preview production build locally:
 bash
 Copy
